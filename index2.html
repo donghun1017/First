@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>리얼코딩</title>
+
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous">
+  		</script>
+
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	
+	<style type="text/css">
+
+    html,body,div,li,h,a{padding:0;margin:0;
+                    font-size:12pt;color:#333;line-height:170%;letter-spacing:-0.07em;
+                    font-family :"나눔고딕",NGothic,sans-serif;font-weight:400;}
+
+    ul,li{padding:0;margin:0;list-style:none;}
+    a {text-decoration: none;}
+    a:hover {text-decoration: none;}
+    h1 {font-size:58px;font-weight:700;letter-spacing:-0.05em;border-bottom:solid #ffcc00 6px;display:inline-block;line-height:68px;padding-top:20px;margin-bottom:30px;}
+	h2 {font-size:25px;line-height:34px;font-weight:400;margin:auto;width:1100px;padding-bottom:70px;}
+	.h2_span {color:#f19409;font-weight:400;}
+	
+
+		/* 섹션별 스타일*/
+		#main {-webkit-overflow-scrolling: touch;position:relative;}
+		#section_01, #section_02, #section_03, #section_04, #section_05, #section_06, #section_07, #section_08, #section_09, #section_10, #section_11 {width:100%;height:auto;overflow:hidden;text-align:center;}
+    	#section_01 {width:100%;height:90px;box-shadow:1px 1px 5px #ccc;}
+		#mida_top ul {margin:auto;width:1350px;}
+		#mida_top_menu li{float:left;height:100px;line-height:100px;}
+		#mida_top_menu a{height:100px;font-size:22px;font-weight:600;line-height:100px;padding:0 30px;color:#333;}
+		#mida_top li:first-child {padding:15px 143px 0 0;line-height:0;}
+
+		/* 메인 슬라이드 이미지 */
+    	#section_02 {width:100%;height:938px;}
+		#main_text_box {margin:auto;width:100%;padding-top:290px;text-shadow:3px 2px 10px #333;position:absolute;z-index:99;}
+		#main_text_01 {color:#fff;font-weight:600;font-size:46px;padding-bottom:60px;line-height:60px;}
+		#main_text_02 {color:#fff;font-weight:300;font-size:32px;}
+		#main_text_03 {color:#ffcc00;font-weight:800;font-size:132px;letter-spacing:-0.08em;line-height:134px;}
+		#main_text_04 {margin:auto;width:33px;height:35px;background-color:#fff;border-radius:50px;color:#333;padding-right:2px;font-size:37px;text-shadow:none;line-height:0;margin-top:180px;}
+
+		/* ABOUT CODING */
+		#section_03_about {margin:auto;width:1100px;padding:50px 0;height:auto;padding-top:160px;}
+		#section_03_about_img {font-size:20px;line-height:30px;}
+		#section_03_about_img span {font-weight:600;}
+		.section_03_about_ul {width:550px;height:120px;float:left;}
+		.section_03_about_ul ul {width:550px;}
+		.about_icon {width:100px;float:left;padding-right:10px;}
+		.about_icon i {float:left;width:90px;height:90px;padding:5px;color:#ffcc00;background-color:#fff;border-radius:100px;font-size:60px;line-height:95px;text-align:center;box-shadow:1px 3px 5px #333;}
+		.about_dt {width:420px;float:left;font-size:30px;font-weight:600;color:#ffcc00;text-shadow:1px 3px 5px #333;}
+		.about_dd {width:420px;float:left;font-size:17px;color:#fff;line-height:22px;}
+
+		/* footer*/
+    	#section_11 {width:100%;text-align:left;background-color:#414141;height:205px;}
+    	#footer_bg {float: left; background: no-repeat; background: url(image/realcoding.png);}
+    	#footer p {float: left; color:#ccc;padding:22px 0 0 320px;font-size:15px;line-height:150%;}
+    	copyright {letter-spacing:0.05px;line-height:240%;}
+
+	</style>
+
+
+</head>
+<body>
+	<div id="main">
+	<div id="section_01">
+		<div id="mida_top">
+			<ul id="mida_top_menu">
+				<li><a href="index.html"><img src="image/realcoding.png" width="240" height="65" alt="리얼코딩로고"></a></li>
+				<li><a href="index.html/#section_03" style="color:#ffcc00;">ABOUT CORDING</a></li>
+				<li><a href="index.html/#section_05">SERVICE</a></li>
+				<li><a href="index.html/#section_07">PROCESS</a></li>
+				<li><a href="index.html/#section_09">INTRODUCTION</a></li>
+				<li><a href="index.html/#section_09">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!--// 메인 슬라이드 배너  -->
+	<div id="section_02">
+		<div id="main_text_box">					
+		<div id="main_text_01">당신의 가치를 상승시켜줄<br/>
+		최고의 코딩교육 파트너
+		</div>
+			<div id="main_text_02">NO.1 Code education</div>
+			<div id="main_text_03">RealCording</div>
+		</div>
+		<div style="width:100%;height:auto;z-index:1;overflow:hidden;">
+			<div style="width:100%;height:938px;min-width: 1200px;position: relative;left: 50%;margin-left: -952px;z-index:1;">
+				<div class="cycle-slideshow">
+					<img src="image/section02_3.jpg" alt="">
+					<img src="image/section02_2.jpg" alt="">
+					<img src="image/section02_1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- // 메인 슬라이드 배너  -->
+	<div id="section_03">
+		<div id="section_03_bg">
+			<h1>ABOUT CORDING</h1>
+			<h2>코딩은 앞으로 다가올 4차 산업혁명시대를 대변하여<br/>
+			<span class="h2_span">인공지능, 사물인터넷, 지능형 로봇, 빅 데이터 분석 및 활용 등</span> </br>
+			ICT(정보통신기술)을 바탕으로 한 소프트웨어를 통해 구현되기 때문에 매우 중요합니다.</h2>
+			
+			<div id="section_03_about_img">
+				<img src="image/aa.jpg" width="800" height="500" alt=""/>
+				<p>빌 게이츠, 스티븐 잡스, 마크 주커버그 등 세계 굴지의 유명인사들은 코딩교육을 강조합니다.<br/>
+				코딩교육은 영국, 핀란드, 호주에서 유치원부터 코딩교육을 의무적으로 실시했으며 <br/>미국의 오바마 전 대통령도 '코딩은 당신의 미래뿐 아니라 조국의 미래다'라는 연설을 하며 고등학교 정규과목으로 코딩을 채택합니다.
+				<br/>
+				우리나라에서도 2018년부터 전국 초중고교에서 소프트웨어교육(코딩교육)을 의무화하고 있습니다.</p>
+
+			
+
+	<!-- footer -->
+    <div id="section_11">
+    	<div id="footer_bg">
+    		
+    	</div>
+        <div id="footer">
+        <p>본사 : 충북 청주시 흥덕구 가로수로1251 G테크벤처센터 B01호<br/>
+        브랜치 : 서울특별시 서초구 107-9 사평대로 18길5. 2층<br/>
+		대표이사 : 장동훈<br/>
+        문의 : 02-567-4028 | admin@realcoding.co<br/>
+        사업자번호 : 879-87-00504<br/>
+        <copyright>Copyright(C) 2017 REALCODING. ALL RIGHTS RESERVED.</copyright></p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
